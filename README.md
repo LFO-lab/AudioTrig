@@ -50,15 +50,41 @@ Si ce message s’affiche : "Impossible d’ouvrir 'AUDIOTRIG.vst3', car le dév
 - Appuyer sur la touche de retour 
 - Puis, taper: `spctl --add "/Library/Audio/Plugiciels/VST3/AUDIOTRIG.vst3"`
 - Si, même en *rescannant* les plugiciels dans votre logiciel, le plugiciel ne s’affiche toujours pas:
-		- Fermez votre logiciel.
-		- Enlevez “AUDIOTRIG.vst3” du dossier “VST3”.
-		- Ouvrez votre logiciel, *rescannez* les plugiciels et refermez votre logiciel.
-		- Remettez “AUDIOTRIG.vst3” dans le dossier “VST3”.
-		- Ouvrez votre logiciel, *rescannez* les plugiciels.
+	- Fermez votre logiciel.
+	- Enlevez “AUDIOTRIG.vst3” du dossier “VST3”.
+	- Ouvrez votre logiciel, *rescannez* les plugiciels et refermez votre logiciel.
+	- Remettez “AUDIOTRIG.vst3” dans le dossier “VST3”.
+	- Ouvrez votre logiciel, *rescannez* les plugiciels.
+
+## Fonctionnement dans Ableton Live
+
+#### Testé avec Ableton Live 11 sur Windows 11
+
+- Dans les préférences, dans l’onglet "Plugiciels", assurez-vous que l’option "Utiliser dossier système VST3" est activée.
+- "AUDIOTRIG" se trouve dans l’onglet "Plugiciels" dans la catégorie "LFO LAB". 
+
+<img src="Images/ableton-1.png">
+
+- S’il n’y est pas, *rescannez* les plugiciels en ouvrant les préférences et en allant dans l’onglet "Plugiciels".
+
+<img src="Images/ableton-2.png">
+
+- Glissez "AUDIOTRIG" sur une piste audio.
+
+<img src="Images/ableton-3.png">
+
+- Sur une piste MIDI, sélectionnez la piste audio dans le menu "MIDI From".
+
+<img src="Images/ableton-4.png">
+
+- La piste MIDI reçoit maintenant des notes MIDI en provenance de "AUDIOTRIG".
+- Pour visualiser l’arrivée des messages MIDI, sélectionnez "In" dans le menu "Monitor".
+
+<img src="Images/ableton-5.png">
 
 ## Fonctionnement dans Cubase
 
-Testé avec Cubase Pro 12 sur Windows 11
+#### Testé avec Cubase Pro 12 sur Windows 11
 
 - Ajoutez un plugiciel à une piste audio.
 - "AUDIOTRIG" se trouve dans la section "VST Effect / Other". 
@@ -83,35 +109,9 @@ Testé avec Cubase Pro 12 sur Windows 11
 
 <img src="Images/Cubase-6.png">
 
-## Fonctionnement dans Ableton Live
-
-Testé avec Ableton Live 11 sur Windows 11
-
-- Dans les préférences, dans l’onglet "Plugiciels", assurez-vous que l’option "Utiliser dossier système VST3" est activée.
-- "AUDIOTRIG" se trouve dans l’onglet "Plugiciels" dans la catégorie "LFO LAB". 
-
-<img src="Images/ableton-1.png">
-
-- S’il n’y est pas, *rescannez* les plugiciels en ouvrant les préférences et en allant dans l’onglet "Plugiciels".
-
-<img src="Images/ableton-2.png">
-
-- Glissez "AUDIOTRIG" sur une piste audio.
-
-<img src="Images/ableton-3.png">
-
-- Sur une piste MIDI, sélectionnez la piste audio dans le menu "MIDI From".
-
-<img src="Images/ableton-4.png">
-
-- La piste MIDI reçoit maintenant des notes MIDI en provenance de "AUDIOTRIG".
-- Pour visualiser l’arrivée des messages MIDI, sélectionnez "In" dans le menu "Monitor".
-
-<img src="Images/ableton-5.png">
-
 ## Fonctionnement dans REAPER
 
-Testé avec REAPER v6.52/win64 sur Windows 11
+#### Testé avec REAPER v6.52/win64 sur Windows 11
 
 - Ajoutez un plugiciel à une piste audio.
 

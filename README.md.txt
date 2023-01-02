@@ -42,7 +42,7 @@ Si ce message s’affiche : "Impossible d’ouvrir 'AUDIOTRIG.vst3', car le dév
 	- Remettez "AUDIOTRIG.vst3" dans le dossier "VST3".
 	- Ouvrez votre logiciel, *rescannez* les plugiciels.
 
-Si le plugiciel n’apparaît toujours pas dans votre logiciel :
+#### Si le plugiciel n’apparaît toujours pas dans votre logiciel :
 
 - Ouvrir l’application "Terminal".
 - Notez que le chemin proposé dans les commandes ci-bas est le chemin par défaut et peut différer selon l’endroit où vous avez installé le fichier AUDIOTRIG.vst3.

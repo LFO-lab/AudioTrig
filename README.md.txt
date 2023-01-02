@@ -1,6 +1,6 @@
 # AUDIOTRIG
 
-AUDIOTRIG est un plugiciel VST3 développé par Gabriel Lavoie-Viau pour le [Laboratoire formes • ondes](https://lfo-lab.ca/). Sa fonction principale est d’envoyer une note MIDI lorsque le signal audio dépasse un seuil.
+AUDIOTRIG est un plugiciel VST3 développé par Gabriel Lavoie Viau pour le [Laboratoire formes • ondes](https://lfo-lab.ca/). Sa fonction principale est d’envoyer une note MIDI lorsque le signal audio dépasse un seuil.
 
 <img src="Images/Teaser.jpg">
 
@@ -9,9 +9,11 @@ AUDIOTRIG est un plugiciel VST3 développé par Gabriel Lavoie-Viau pour le [Lab
 AUDIOTRIG est un développement artisanal palliant un manque criant de VST voués à cette simple fonction de déclenchement MIDI basé sur le signal audio. Bien que testé sur plusieurs logiciels, il ne fonctionne malheureusement pas sur Logic Pro et Pro Tools. Si des utilisatrices/teurs le font fonctionner avec d’autres logiciels que ceux donnés en exemple dans ce document, merci de nous l’indiquer afin qu’il soit ajouté à notre liste de logiciels testés.
 
 ## Installation Windows
+- Fermez votre logiciel.
 - Allez dans le dossier "C:\Program Files\Common Files\VST3".
 - S’il n’y a pas de dossier nommé "VST3" dans le dossier "Common Files", créez-le.
 - Copiez "AUDIOTRIG.vst3" dans le dossier "VST3".
+- Ouvrir votre logiciel.
 
 ## Installation Mac
 

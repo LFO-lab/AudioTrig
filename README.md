@@ -70,21 +70,56 @@ Si ce message s’affiche : "Impossible d’ouvrir 'AUDIOTRIG.vst3', car le dév
 
 ## Utilisation avec Ableton Live (version Ableton Live 11 sur Windows 11)
 - Dans les préférences, dans l’onglet "Plug-Ins", assurez-vous que l’option "Utiliser dossier système VST3" est activé.
-- "AUDIOTRIG" se trouve dans l’onglet "Plug-Ins" dans la catégorie "LFO LAB". (ableton-1)
-- S’il n’y est pas, rescanner les plugins en ouvrant les préférences et en allant dans l’onglet "Plug-Ins". (ableton-2)
-- Glisser "AUDIOTRIG" sur une piste audio. (ableton-3)
-- Sur une piste MIDI, sélectionner la piste audio dans le menu "MIDI From". (ableton-4)
+- "AUDIOTRIG" se trouve dans l’onglet "Plug-Ins" dans la catégorie "LFO LAB". 
+
+<img src="Images/ableton-1.png">
+
+- S’il n’y est pas, rescanner les plugins en ouvrant les préférences et en allant dans l’onglet "Plug-Ins".
+
+<img src="Images/ableton-2.png">
+
+- Glisser "AUDIOTRIG" sur une piste audio.
+
+<img src="Images/ableton-3.png">
+
+- Sur une piste MIDI, sélectionner la piste audio dans le menu "MIDI From".
+
+<img src="Images/ableton-4.png">
+
 - La piste MIDI reçoit maintenant des notes MIDI en provenance de "AUDIOTRIG".
-- Pour visualiser l’arrivée des messages MIDI, sélectionner "In" dans le menu "Monitor". (ableton-5)
+- Pour visualiser l’arrivée des messages MIDI, sélectionner "In" dans le menu "Monitor".
+
+<img src="Images/ableton-5.png">
 
 ## Utilisation avec REAPER (version REAPER v6.52/win64 sur Windows 11)
-- Ajouter un plugiciel à une piste audio. (reaper-1)
-- "AUDIOTRIG" se trouve dans l’onglet "VST3". (reaper-2)
-- S’il n’y est pas, rescanner les plugins. (reaper-3)
-- Cliquer sur le bouton "Route" de la track audio pour ajouter un envoi. (reaper-4)
-- Créer un nouvel envoi vers la piste voulu. (reaper-5)
-- Désactivé l’envoi audio. (reaper-6)
-- Assurez-vous de que l’envoie MIDI est activé. (reaper-7)
+- Ajouter un plugiciel à une piste audio.
+
+<img src="Images/reaper-1.png">
+
+- "AUDIOTRIG" se trouve dans l’onglet "VST3".
+
+<img src="Images/reaper-2.png">
+
+- S’il n’y est pas, rescanner les plugins.
+
+<img src="Images/reaper-3.png">
+
+- Cliquer sur le bouton "Route" de la track audio pour ajouter un envoi.
+
+<img src="Images/reaper-4.png">
+
+- Créer un nouvel envoi vers la piste voulu.
+
+<img src="Images/reaper-5.png">
+
+- Désactivé l’envoi audio.
+
+<img src="Images/reaper-6.png">
+
+- Assurez-vous de que l’envoie MIDI est activé.
+
+<img src="Images/reaper-7.png">
+
 - La piste MIDI peut maintenant recevoir des notes MIDI en provenance de "AUDIOTRIG".
 
 ## Logic Pro

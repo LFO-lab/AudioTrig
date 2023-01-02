@@ -49,16 +49,20 @@ Si ce message s’affiche : "Impossible d’ouvrir 'AUDIOTRIG.vst3', car le dév
 - "AUDIOTRIG" se trouve dans la section "VST Effect / Other". 
 
 <img src="Images/Cubase-1.png">
+
 - S’il n’y est pas, rescanner les plugins avec le VST Plugins Manager.
 
 <img src="Images/Cubase-2.png">
 <img src="Images/Cubase-3.png">
+
 - Sélectionner une track MIDI ou Instrument et, dans l’onglet "Inspector", maximiser la première section du haut.
 
 <img src="Images/Cubase-4.png">
+
 - Dans la section "Input routing", sélectionner "AUDIOTRIG – MIDI out".
 
 <img src="Images/Cubase-5.png">
+
 - Lorsque la piste MIDI ou Instrument est armé, elle reçoit maintenant des notes MIDI en provenance de "AUDIOTRIG".
 - Il est possible de visualiser l’arrivée des message MIDI avec le plugin "MIDI Monitor".
 

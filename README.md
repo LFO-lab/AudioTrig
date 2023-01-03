@@ -45,7 +45,7 @@ Si ce message s’affiche : "Impossible d’ouvrir 'AUDIOTRIG.vst3', car le dév
 #### Si le plugiciel n’apparaît toujours pas dans votre logiciel :
 
 - Ouvrir l’application "Terminal".
-- Notez que le chemin proposé dans les commandes ci-bas est le chemin par défaut et peut différer selon l’endroit où vous avez installé le fichier AUDIOTRIG.vst3.
+- Notez que le chemin proposé dans les commandes ci-bas est le chemin par défaut et peut différer selon l’endroit où vous avez installé le fichier "AUDIOTRIG.vst3".
 - Dans le terminal tapez : 
 
 `sudo xattr -rd com.apple.quarantine "/Library/Audio/Plugiciels/VST3/AUDIOTRIG.vst3"`

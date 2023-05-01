@@ -15,7 +15,7 @@ AUDIOTRIG est un développement artisanal palliant un manque criant de VST voué
 - Copiez "AUDIOTRIG.vst3" dans le dossier "VST3".
 - Ouvrir votre logiciel.
 
-## Installation Mac
+## Installation Mac Pré-M1
 
 - Fermez votre logiciel.
 - Copiez "AUDIOTRIG.vst3" dans le dossier suivant:
